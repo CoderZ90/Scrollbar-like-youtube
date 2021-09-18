@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Google Font - Poppins */
+  font-family: "Poppins";
+}
+body {
+  background: #f1f1f1;
+}
+section {
+  padding: 50px;
+}
+section h2 {
+  font-size: 60px;
+}
+/* i am not focusing more in the css part we will only focus on the scrollbar part  */
+section p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+/* Now the super main part */
+/* this gets the whole scrollbar including the scrollbar area */
+::-webkit-scrollbar {
+  background: transparent;
+  width: 7px;
+}
+/* webkit scrollbar thumb is the part of the scrollbar which we hold to scroll  */
+::-webkit-scrollbar-thumb {
+  background: #606060;
+  /* we got the background now lets make it round */
+  border-radius: 100px;
+}
